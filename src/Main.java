@@ -6,7 +6,6 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-
         if ((a > 0 && b <= 0 && c <= 0)||(a <= 0 && b > 0 && c <= 0)||(a <= 0 && b <= 0 && c > 0)){
             System.out.println("true");
         }else System.out.println("false");
